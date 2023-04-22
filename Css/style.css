@@ -19,7 +19,7 @@ body.dark {
     position: absolute;
     top: 50px;
     right: 0;
-    width: 200px;
+    width: 160px;
 }
 
 .checkbox {
@@ -36,10 +36,10 @@ body.dark {
     justify-content: space-between;
     align-items: center;
   
-    padding: 3px;
+    padding: 2px;
     position: relative;
     height: 26px;
-    width: 50px;
+    width: 60px;
     transform: scale(1.5);
   
   }
@@ -65,10 +65,13 @@ body.dark {
   
   .fa-moon {
     color: #ee5bdf;
+    font-size: 23px;
   }
   
   .fa-sun {
     color: #ee5bdf;
+    width: 20px;
+    font-size: 25px;
   }
 
 header {
