@@ -11,7 +11,8 @@ body {
 
 body.dark {
     
-     background: linear-gradient(#541c47,#381330, #1d131c, #000000);
+     background: linear-gradient(#541c47,#381330, #1d131c,
+     #000000, #000000, #000000);
 }
 
 .modo {
