@@ -3,10 +3,13 @@
     font-weight: 300;
     font-size: 30px;
     line-height: 1.5;
+    top: 20px;
+    
 }
 
 body {
     background: linear-gradient(#eff1fa, #e9ecf8, #c860b0);
+    top: 100%;
 }
 
 body.dark {
@@ -29,7 +32,7 @@ body.dark {
   
   .label {
     
-    background-color: #111;
+    background-color: #ff00b3;
     border-radius: 50px;
     cursor: pointer;
     display: flex;
@@ -60,18 +63,18 @@ body.dark {
   
   .checkbox:checked + .label .ball {
     
-    transform: translateX(24px);
+    transform: translateX(33px);
   }
   
   .fa-moon {
-    color: #ee5bdf;
+    color: #251023;
     font-size: 23px;
   }
   
   .fa-sun {
-    color: #ee5bdf;
+    color: #eeeeee;
     width: 20px;
-    font-size: 25px;
+    font-size: 22px;
   }
 
 header {
@@ -79,11 +82,10 @@ header {
     flex-direction: column;
     margin: 40px 0 0 40px;
     height: 100px;
-    color: var(--color-header);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 
@@ -112,7 +114,7 @@ textarea {
 }
 
 .input-texto {
-    margin-top: 85px;
+    margin-top: 200px;
     margin-left: 15px;
     background-color: transparent;
     border-color: transparent;
@@ -161,11 +163,13 @@ button:hover {
     color: #ff00c3;
 }
 .container {
-    background-color: white;
+    background-color: #ffffff;
     margin: 20px 0;
     border-radius: 30px;
+    position: relative;
+    top: 30px;
     padding: 2rem;
-    height: 40rem;
+    height: 20rem;
     text-align: center;
     box-shadow: 12px 18px 35px #ff00c3;
 }
@@ -179,6 +183,7 @@ button:hover {
     background-image: url(../Imagens/resultado-bg.png);
     background-position: top;
     background-repeat: no-repeat;
+    
 }
 
 .resultado:not(:placeholder-shown) {
@@ -190,11 +195,12 @@ button:hover {
 .btn-copiar {
     background-color: white;
     color: #ff00c3;
+    position: relative;
 }
 footer {
     text-align: center;
-    margin-top: 9rem;
-    margin-bottom: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
 }
 .redes {
     display: inline;
@@ -232,6 +238,16 @@ footer {
     header {
         display: block;
         margin: 35px 0 0 25px;
+    }
+    #logo {
+        width: 150px;
+    }
+
+    .modo {
+        position: absolute;
+        top: 50px;
+        right: 100px;
+        width: 10px;
     }
     .main {
         display: inline;
@@ -289,7 +305,7 @@ footer {
         display: none;
     }
     footer {
-        margin: 2rem auto;
+        margin: 4rem auto;
     }
     .redes {
         font-size: 16px;
