@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Codificador e decodificador de texto. Este site foi um challenge do programa ONE 
+        (Oracle Next Education)">
+
+
+        <title>Codificador de texto</title>
+        <link rel="icon" href="keys-icon.ico" type="image/x-icon">
+
+
+        <link rel="stylesheet" href="../Codificador e Descodificador/Css/reset.css">
+        <link rel="stylesheet" href="Css/style.css">
+
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                <a href="index.html" title="Home">
+                    <img src="Imagens/logo_evelyn.png" alt="Logo site."
+                    width="120" height="48" id="logo">
+                </a>
+            </h1>  
+            <div class="modo">
+                <input type="checkbox" class="checkbox" id="chk" />
+                <label class="label" for="chk"> 
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+                  
+                  <div class="ball"></div>
+                </label>
+              </div>
+
+              
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+        </header>
+        <main class="main">
+            <section>
+                <textarea class="input-texto" cols="40" rows="9" placeholder="Digite seu texto..."></textarea>
+
+                <div class="informacao">
+                    <ul class="mensagens-erro"></ul>
+                </div>
+
+                <div class="botoes">
+                    <button type="button" class="btn-codificar">Codificar</button>
+                    <button type="button" class="btn-decodificar">Decodificar</button>
+                </div>
+            </section>
+
+            <section class="container">
+                <textarea class="resultado" cols="20" rows="11" placeholder=" " readonly id="txt"></textarea>
+                <button type="button" class="invisivel btn-copiar">Copiar</button>
+            </section>
+        </main>
+
+        <footer>
+            <div class="redes">
+                <p>Minhas redes: </p>
+            
+            <a href="https://github.com/Evelyn1g" title="Evelyn1g | GitHub" target="_blank">            
+                <img src="Imagens/logo-github.png" alt="Logo do GitHub em formato circular."
+                width="45" height="45" id="github">
+                GitHub
+            </a>
+             <a href="https://www.linkedin.com/in/evelyn-galhardo/" title="Evelyn Galhardo Giampaulo | LinkedIn" target="_blank">
+                <img src="Imagens/logo-linkedin.png" alt="Logo do LinkedIn em formato circular"
+                width="45" height="45" id="linkedin">
+                LinkedIn
+            </a>
+            <a href="https://www.instagram.com/evy.galhardo/" title="Evelyn Galhardo (@evy.galhardo) | Instagram" target="_blank">
+                <img src="Imagens/logo-instagram.png" alt="Logo do Instagram"
+                width="45" height="45" id="instagram">
+                Instagram
+            </a>
+            </div>
+            
+            <div class="credito">
+                <p>&#169; Desenvolvido Evelyn Galhardo Giampaulo - 2023</p>
+            </div>
+        </footer>evelyN10
+
+        <script src="JavaScript/JavaScript.js"></script>
+        
+    </body>
+</html>
